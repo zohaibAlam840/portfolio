@@ -25,7 +25,7 @@ export default function Card() {
 
         {/* Description */}
         <p className="text-sm sm:text-lg text-center text-gray-500 mt-3">
-          A Software Engineer who <br /> has developed countless innovative solutions.
+          A Software Engineer who <br /> has developed many innovative solutions.
         </p>
 
         {/* Social Media Icons */}
