@@ -1,7 +1,7 @@
 'use client'
-import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefcase } from "react-icons/hi";
-import { FiTool } from "react-icons/fi";
-import Link from "next/link";
+// import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefcase } from "react-icons/hi";
+// import { FiTool } from "react-icons/fi";
+// import Link from "next/link";
 import Intro from "./../component/mainCard";
 import Tool from "../component/main/Tool";
 import { motion } from "framer-motion";
