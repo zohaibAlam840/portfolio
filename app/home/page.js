@@ -8,8 +8,17 @@ import Expereience from "../component/main/experinec";
 import Tools from "../component/main/Tool";
 import Link from "next/link";
 import GivComp from "../component/git";
-
 export default function Home() {
+
+ const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = '/ZOHAIB.pdf'; // Public folder serves files at the root
+  link.download = "My_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
   return (
     <div className="flex flex-col w-full h-auto bg-bgColor text-white">
       {/* Main Content */}
@@ -88,6 +97,7 @@ export default function Home() {
             <motion.button 
               whileHover={{ scale: 1.1 }} 
               className="bg-iconCol px-4 py-2 rounded-lg"
+              onClick={handleDownload}
             >
               Download Resume
             </motion.button>
