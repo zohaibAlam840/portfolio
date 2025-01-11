@@ -13,7 +13,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] lg:grid-cols-[2fr_2.5fr_1fr] gap-5 px-5 py-5">
         {/* Left Column - Sticky Intro */}
         <motion.div
-          className="w-full h-auto md:h-screen py-5 md:py-14 md:pl-5 lg:pl-10"
+          className="w-full h-auto md:h-screen py-5 md:py-14 md:pl-5 lg:pl-9"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
