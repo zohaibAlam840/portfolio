@@ -5,7 +5,7 @@ import "react-calendar-heatmap/dist/styles.css";
 import axios from "axios";
 import Link from "next/link";
 
-const GitHubPushesHeatmap = ({ username }) => {
+const GitHubPushesHeatmap = ({ username, token }) => {
   const [pushEvents, setPushEvents] = useState([]);
   const [error, setError] = useState("");
   const threeMonthsAgo = new Date();

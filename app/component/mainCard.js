@@ -30,18 +30,20 @@ export default function Card() {
 
         {/* Social Media Icons */}
         <div className="flex gap-5 mt-4">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/bleazik/" target="_blank" rel="noopener noreferrer">
             <AiOutlineInstagram size={28} className="text-orange-500 hover:scale-110 transition" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/zohaib-alam-138ba3201/" target="_blank" rel="noopener noreferrer">
             <AiOutlineLinkedin size={28} className="text-blue-600 hover:scale-110 transition" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/zohaibAlam840" target="_blank" rel="noopener noreferrer">
             <AiOutlineGithub size={28} className="text-gray-800 hover:scale-110 transition" />
           </a>
-          <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:ikillar840@gmail.com?subject=Hello&body=I want to contact you."
+            target="_blank" rel="noopener noreferrer">
             <AiOutlineMail size={28} className="text-red-500 hover:scale-110 transition" />
           </a>
+
         </div>
       </div>
     </div>
