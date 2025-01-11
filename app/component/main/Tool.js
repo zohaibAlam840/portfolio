@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import ToolCard from "../toolCard";
 import one from "../../assets/1.avif";
 import two from "../../assets/2.avif";

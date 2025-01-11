@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HiOutlineHome, HiOutlineCollection, HiOutlineLightBulb, HiOutlineBriefcase } from "react-icons/hi";
+import { HiOutlineHome, HiOutlineCollection, HiOutlineBriefcase } from "react-icons/hi";
 import { FiTool } from "react-icons/fi";
 export default function nav () {
 
