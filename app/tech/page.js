@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full min-h-screen bg-bgColor text-white overflow-hidden">
+    <div className="flex flex-col w-full min-h-screen bg-bgColor text-white">
       {/* Main Content */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] lg:grid-cols-[2fr_2.5fr_1fr] gap-5 px-5 py-5">
         {/* Left Column - Sticky Intro */}
